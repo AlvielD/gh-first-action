@@ -1,0 +1,17 @@
+# Name of the workflow
+name: First Workflow
+
+# When to execute
+on: workflow_dispatch
+
+# Jobs and their identifiers
+jobs:
+  first-job:
+    # Define the runner (the virtual machine to run the job
+    runs-on: ubuntu-lastest
+    # Steps (names and terminal cmd
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print godbye
+        run: echo "Godbye"
