@@ -7,9 +7,9 @@ on: workflow_dispatch
 # Jobs and their identifiers
 jobs:
   first-job:
-    # Define the runner (the virtual machine to run the job
+    # Define the runner (the virtual machine to run the job)
     runs-on: ubuntu-latest
-    # Steps (names and terminal cmd
+    # Steps (names and terminal cmds)
     steps:
       - name: Print greeting
         run: echo "Hello World!"
